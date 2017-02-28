@@ -127,7 +127,7 @@ A tomcat web listener is provided, use it in web.xml like this
     </context-param>
 
     <listener>
-        <listener-class>com.xxxxwalter.environment.EnvironmentListener</listener-class>
+        <listener-class>com.cedricwalter.environment.EnvironmentListener</listener-class>
     </listener>
 ```
 
