@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="
+			http://java.sun.com/xml/ns/j2ee
+			http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+
+    <context-param>
+        <description>List of comma separated file read from classpath you want to track.</description>
+        <param-name>specificFiles</param-name>
+        <param-value>any.txt,other.txt</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>com.cedricwalter.environment.EnvironmentListener</listener-class>
+    </listener>
+
+</web-app>
