@@ -16,9 +16,10 @@ local.properties
 *.launch
 
 ### IDEA
+.idea/*
 *.ipr
 *.iws
-*.iml
+*/*.iml
 
 ### Maven
 target/
